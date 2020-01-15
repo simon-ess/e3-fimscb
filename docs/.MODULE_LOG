@@ -1,0 +1,79 @@
+>>
+Script is used     : e3TemplateGenerator.bash
+Script Path        : /home/osboxes/epics/e3-tools/e3TemplateGenerator
+Script Version     : 1.0.8
+Script Run Time    : 2020Jan15-0544-24EST
+User               : osboxes
+e3-tools Hash      : bf03d40
+>>
+>> git diff 
+diff --git a/e3TemplateGenerator/modules_conf/fimscb.conf b/e3TemplateGenerator/modules_conf/fimscb.conf
+index c0385f7..4141587 100644
+--- a/e3TemplateGenerator/modules_conf/fimscb.conf
++++ b/e3TemplateGenerator/modules_conf/fimscb.conf
+@@ -1,5 +1,5 @@
+ EPICS_MODULE_NAME:=fimscb
+ EPICS_MODULE_URL:=https://github.com/icshwi
+-E3_TARGET_URL:=https://github.com/jeonghanlee
++E3_TARGET_URL:=https://github.com/simon-ess
+ E3_MODULE_SRC_PATH:=fimscb
+ 
+diff --git a/e3TemplateGenerator/modules_conf/localexample.conf b/e3TemplateGenerator/modules_conf/localexample.conf
+index 30b058a..1cbeee6 100644
+--- a/e3TemplateGenerator/modules_conf/localexample.conf
++++ b/e3TemplateGenerator/modules_conf/localexample.conf
+@@ -3,7 +3,7 @@ E3_TARGET_URL:=https://github.com/icshwi
+ # 
+ EPICS_MODULE_NAME:=example
+ #
+-# EPICS_MODULE_URL:=https://github.com/jeonghanlee
++# EPICS_MODULE_URL:=https://github.com/simon-ess
+ #
+ E3_MODULE_SRC_PATH:=example
+ #
+
+>>
+>> git diff --cached
+
+>>
+>> git diff HEAD
+diff --git a/e3TemplateGenerator/modules_conf/fimscb.conf b/e3TemplateGenerator/modules_conf/fimscb.conf
+index c0385f7..4141587 100644
+--- a/e3TemplateGenerator/modules_conf/fimscb.conf
++++ b/e3TemplateGenerator/modules_conf/fimscb.conf
+@@ -1,5 +1,5 @@
+ EPICS_MODULE_NAME:=fimscb
+ EPICS_MODULE_URL:=https://github.com/icshwi
+-E3_TARGET_URL:=https://github.com/jeonghanlee
++E3_TARGET_URL:=https://github.com/simon-ess
+ E3_MODULE_SRC_PATH:=fimscb
+ 
+diff --git a/e3TemplateGenerator/modules_conf/localexample.conf b/e3TemplateGenerator/modules_conf/localexample.conf
+index 30b058a..1cbeee6 100644
+--- a/e3TemplateGenerator/modules_conf/localexample.conf
++++ b/e3TemplateGenerator/modules_conf/localexample.conf
+@@ -3,7 +3,7 @@ E3_TARGET_URL:=https://github.com/icshwi
+ # 
+ EPICS_MODULE_NAME:=example
+ #
+-# EPICS_MODULE_URL:=https://github.com/jeonghanlee
++# EPICS_MODULE_URL:=https://github.com/simon-ess
+ #
+ E3_MODULE_SRC_PATH:=example
+ #
+
+
+>>
+>> Your sources are located in https://github.com/icshwi.
+>> git submodule will be used.
+>> 
+EPICS_MODULE_NAME  : fimscb
+E3_MODULE_SRC_PATH : fimscb
+EPICS_MODULE_URL   : https://github.com/icshwi
+E3_TARGET_URL      : https://github.com/simon-ess
+>> 
+e3 module name     : e3-fimscb
+e3 module url full : https://github.com/icshwi/fimscb.git
+e3 target url full : https://github.com/simon-ess/e3-fimscb.git
+>> 
+e3 module is located in siteMods
